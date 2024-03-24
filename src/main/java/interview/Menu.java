@@ -1,20 +1,21 @@
 package interview;
 
 /**
- * @Author:javaboy
- * @Since：2024/02/29
+ * @Author:靓仔
+ * @Since：2024/03/24
  * @Description:
  */
-public class Fruit {
+public class Menu {
     private String name;
     private double price;
 
-    public Fruit(String name, double price) {
+    public Menu(String name, double price) {
         this.name = name;
         this.price = price;
     }
-
     public double getPrice() {
         return price;
     }
+
+
 }
